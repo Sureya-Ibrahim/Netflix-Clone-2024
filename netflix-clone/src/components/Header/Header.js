@@ -40,4 +40,8 @@ const Header = ()=> {
 export default Header
 //API Key from TMDB
 // e5198148daff90039853f26933db3bfd;
-//The movie database(TMDB)
+//The movie database(TMDB) 
+
+
+//This is to fetch all data for 20 movies
+//https://api.themoviedb.org/3/discover/movie?api_key=e5198148daff90039853f26933db3bfd
