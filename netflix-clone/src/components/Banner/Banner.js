@@ -3,32 +3,6 @@ import axios from '../../utils/axios'
 import requests from '../../utils/requests'
 import './banner.css'
 
-// const Banner = () => {
-//   // Define the truncate function
-// //   const truncate = (text, maxLength) => {
-// //     if(!text) {
-// //         return '';
-// //     }
-//     return text.length > maxLength ? text.substring(0, maxLength) + '...' : text;
-//   };
-
-//   const [movie, setMovie] = useState({});
-//   useEffect(() => {
-//     axios.get(requests.fetchNetflixOriginals)
-//       .then(response => {
-//         console.log(response);
-
-//         setMovie(response.data.results[
-//           Math.floor(Math.random() * response.data.results.length)
-//         ]);
-//       })
-//       .catch(error => {
-//         console.log("error", error);
-//       });
-//   }, []);
-
- 
-
 const Banner = () => {
     const [movie, setMovie]=useState({});
     useEffect(()=> {

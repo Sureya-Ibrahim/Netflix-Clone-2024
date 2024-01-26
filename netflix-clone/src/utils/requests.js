@@ -30,3 +30,10 @@ export default requests;
 
 //This is to fetch genre or type of movies
 // "https://api.themoviedb.org/3/genre/movie/list?api_key=e5198148daff90039853f26933db3bfd;";
+
+
+ 
+
+
+
+
