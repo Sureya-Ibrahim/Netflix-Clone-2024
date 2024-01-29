@@ -1,9 +1,10 @@
 .banner {
-    margin-top: -10vh;
+    margin-top: 10vh;
     height: 80vh;
-    margin-bottom: -60px;
+    margin-bottom: 80px;
     color:white;
     object-fit: contain;
+
 }
 .banner__contents {
 margin-left: 30px;
@@ -54,7 +55,5 @@ height: 190px;
     );
 }
 
-.banner {
-    overflow-x: hidden;
-    /* Hide horizontal scrollbar for .banner */
-}
+
+    
